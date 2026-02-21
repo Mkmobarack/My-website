@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta name="description" content="Signature Khan LABEL - Premium custom water bottle labeling for events and businesses.">
+    <meta name="keywords" content="Custom Label, Signature Khan, Premium Branding, Water Bottle Labels Bangladesh">
+    <meta name="author" content="Signature Khan">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signature Khan LABEL | Premium Branding</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        /* হোয়াটসঅ্যাপ বাটন স্টাইল */
+        .wa-float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 40px;
+            right: 40px;
+            background-color: #25d366;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        .wa-float:hover {
+            background-color: #128c7e;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo-area">
+                <img src="https://i.postimg.cc/pLF04ggW/Black-White-Minimalist-Professional-Initial-Logo.png" alt="Logo" class="site-logo">
+                <div class="logo-text">
+                    <span class="sig">Signature</span>
+                    <span class="khan">Khan LABEL</span>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT US</a></li>
+                <li><a href="#products">COLLECTION</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Enter Your Name</h1>
+        
+        <div class="input-area" style="display: flex; gap: 10px; justify-content: center; align-items: center; flex-wrap: wrap; margin-bottom: 20px;">
+            <select id="titleSelect" style="padding: 15px; border-radius: 5px; border: 2px solid #bf953f; background: #000; color: #fff; font-family: 'Poppins', sans-serif; cursor: pointer;">
+                <option value="Mr.">Mr.</option>
+                <option value="Mrs.">Mrs.</option>
+                <option value="Ms.">Ms.</option>
+            </select>
+            
+            <input type="text" id="userName" placeholder="Enter Your Name..." style="padding: 15px; width: 250px; border-radius: 5px; border: 2px solid #bf953f; background: #000; color: #fff; font-family: 'Poppins', sans-serif;">
+            
+            <button onclick="startMagic()" style="padding: 15px 25px; background: linear-gradient(45deg, #bf953f, #fcf6ba); border: none; border-radius: 5px; color: #000; font-weight: bold; cursor: pointer; transition: 0.3s;">
+                Click 
+            </button>
+        </div>
+
+        <div id="animation-zone" style="position: relative; width: 100%; height: 500px; background: #000; border-radius: 20px; overflow: hidden; border: 1px solid #bf953f; margin-top: 30px; box-shadow: 0 10px 30px rgba(191, 149, 63, 0.4);">
+            <video autoplay muted loop playsinline id="bg-video" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8;">
+                <source src="gold.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 10; text-align: center; width: 100%;">
+                <h2 id="magic-display" style="font-family: 'Cinzel', serif; color: #fcf6ba; text-shadow: 2px 2px 30px rgba(0,0,0,1); font-size: 3.2rem; font-weight: 900; margin: 0; letter-spacing: 3px; text-transform: uppercase; padding: 0 20px;">
+                    Your Branding Starts Here
+                </h2>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-us" style="padding: 60px 10%; line-height: 1.8; color: #fff;">
+        <h2>About Signature Khan LABEL</h2>
+        <p>​At Signature Khan LABEL, we specialize in premium custom water bottle labeling that transforms an everyday essential into a powerful branding tool. We are dedicated to providing high-quality, waterproof, and aesthetically pleasing labels that perfectly reflect your unique identity and vision.</p>
+        
+        <div class="about-bengali">
+            <h3>আমাদের সম্পর্কে</h3>
+            <p>সাধারণ একটি পানির বোতলকেও অসাধারণ করে তুলতে Signature Khan LABEL নিয়ে এসেছে প্রিমিয়াম কাস্টম লেভেলিং সলিউশন। আমরা বিশ্বাস করি, একটি ব্র্যান্ডের পরিচয় ফুটে ওঠে তার খুঁটিনাটি বিষয়ের নিখুঁত উপস্থাপনায়। তাই আপনার কর্পোরেট ব্র্যান্ডিং কিংবা ব্যক্তিগত বিশেষ মুহূর্তগুলোকে আরও স্মরণীয় করতে আমরা দিচ্ছি উচ্চমানের এবং সৃজনশীল লেভেলিং সেবা।</p>
+            
+            <h4>কেন আমাদের বেছে নেবেন?</h4>
+            <div class="why-us-text">
+                <b>স্বকীয় ডিজাইন:</b> আপনার ব্র্যান্ড বা থিমের সাথে সামঞ্জস্য রেখে আমরা তৈরি করি একদম ইউনিক ডিজাইন।<br>
+                <b>প্রিমিয়াম কোয়ালিটি:</b> আমাদের লেভেলগুলো টেকসই এবং পানি নিরোধক (Waterproof), যা দীর্ঘক্ষণ উজ্জ্বল থাকে।<br>
+                <b>দ্রুত ডেলিভারি:</b> সময়ের মূল্য আমরা বুঝি, তাই সঠিক সময়ে মানসম্মত পণ্য পৌঁছে দিতে আমরা প্রতিশ্রুতিবদ্ধ।
+            </div>
+        </div>
+
+    </section>
+
+    <section id="products" class="products">
+        <h2>Exclusive Collection</h2>
+        <div class="bottle-grid">
+            <div class="bottle-card"><img src="https://i.postimg.cc/wBPDzvJh/photo-2026-02-17-15-31-42.jpg" alt="Signature Khan Label Bottle"><span>It's Waiting For YOU </span></div>
+             <div class="bottle-card"><img src="https://i.postimg.cc/yYqn9fDD/photo-2026-02-17-15-31-51.jpg" alt="B2"><span> GYM Edition</span></div>
+            <div class="bottle-card"><img src="https://i.postimg.cc/WbrWfBB6/photo-2026-02-17-15-31-54.jpg" alt="B3"><span> Wedding</span></div>
+            <div class="bottle-card"><img src="https://i.postimg.cc/v8ntQW05/photo-2026-02-17-15-31-47.jpg" alt="B4"><span> Special Event</span></div>
+            <div class="bottle-card"><img src="https://i.postimg.cc/y84hgWbB/photo-2026-02-17-15-31-57.jpg" alt="B5"><span> Birthday</span></div>
+
+        </div>
+    </section>
+     <section class="services">
+        <h2>Who We Work For</h2>
+        <div class="service-grid">
+            <div class="sq-box"><i class="fas fa-dumbbell"></i><span>GYM & FITNESS</span></div>
+            <div class="sq-box"><i class="fas fa-ring"></i><span>WEDDING GALA</span></div>
+            <div class="sq-box"><i class="fas fa-cake-candles"></i><span>BIRTHDAY PARTY</span></div>
+            <div class="sq-box"><i class="fas fa-star"></i><span>SPECIAL EVENTS</span></div>
+            <div class="sq-box"><i class="fas fa-trophy"></i><span>TOURNAMENTS</span></div>
+            <div class="sq-box"><i class="fas fa-palette"></i><span>ART EXHIBITION</span></div>
+            <div class="sq-box"><i class="fas fa-briefcase"></i><span>CORPORATE</span></div>
+            <div class="sq-box"><i class="fas fa-volleyball"></i><span>SPORTS CLUB</span></div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-container">
+            <div class="contact-info-card">
+                <h3>To contact us</h3>
+                <p>Please Click on the whatsapp button.</p>
+            </div>
+            <div class="contact-form-card">
+                <h3>Send a Message</h3>
+                <p style="color: #ccc; font-size: 14px; margin-bottom: 20px; text-align: center;">
+                    আপনার বিশেষ ইভেন্ট বা ব্যবসার জন্য প্রিমিয়াম কাস্টম লেবেল পেতে নিচের ফর্মটি পূরণ করুন। আমাদের টিম আপনার সাথে ২৪ ঘন্টার মধ্যে যোগাযোগ করবে | ধন্যবাদ
+                </p>
+               <form id="my-form" class="main-form">
+    <input type="text" name="name" placeholder="Full Name" required>
+    <input type="tel" name="phone" placeholder="Phone Number" required>
+    <textarea name="message" rows="4" placeholder="How can we help you?" required></textarea>
+    <button type="submit" id="my-form-status-btn" class="submit-btn">SEND NOW</button>
+    
+    <p id="my-form-status" style="text-align: center; margin-top: 10px; font-weight: bold;"></p>
+</form>
+            </div>
+        </div>
+    </section>
+
+    <a href="https://wa.me/8801999472016" class="wa-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script>
+        function startMagic() {
+            const title = document.getElementById('titleSelect').value;
+            const name = document.getElementById('userName').value;
+            const display = document.getElementById('magic-display');
+
+            if (name.trim() === "") {
+                alert("আপনার নাম লিখুন!");
+                return;
+            }
+            display.innerText = "Signature Khan LABEL for " + title + " " + name;
+            document.getElementById('animation-zone').scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

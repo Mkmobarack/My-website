@@ -1,0 +1,76 @@
+/* আগের সেই সুন্দর ফন্ট এবং গোল্ডেন ভাইব */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;900&family=Cinzel:wght@700&display=swap');
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #000; color: #fff; font-family: 'Poppins', sans-serif; }
+
+/* সব শিরোনাম গোল্ডেন এবং সেন্টারড */
+h2, h3, h4, h5 { 
+    text-align: center; 
+    font-family: 'Cinzel', serif;
+    color: transparent;
+    background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728, #fbf5b7, #aa771c);
+    -webkit-background-clip: text;
+    background-clip: text;
+    margin: 40px 0;
+    letter-spacing: 2px;
+}
+
+/* ন্যাভিগেশন ও লোগো (Signature বড়, Khan ছোট) */
+nav { display: flex; justify-content: space-between; padding: 15px 5%; background: rgba(0,0,0,0.9); border-bottom: 2px solid #bf953f; align-items: center; position: sticky; top: 0; z-index: 1000; }
+.logo-area { display: flex; align-items: center; gap: 15px; }
+.site-logo { width: 50px; height: 50px; }
+.logo-text .sig { font-size: 28px; font-weight: 900; color: #bf953f; display: block; line-height: 1; font-family: 'Cinzel', serif; }
+.logo-text .khan { font-size: 14px; font-weight: 300; color: #fff; text-transform: uppercase; letter-spacing: 3px; }
+
+/* হিরো ও ইনপুট এরিয়া */
+.hero { padding: 80px 5%; text-align: center; }
+.input-area { display: flex; justify-content: center; margin-bottom: 30px; }
+.input-area input { padding: 15px; width: 300px; background: #111; border: 1px solid #bf953f; color: #fff; border-radius: 5px 0 0 5px; outline: none; }
+.input-area button { padding: 15px 30px; background: linear-gradient(45deg, #bf953f, #fcf6ba); border: none; color: #000; font-weight: 900; border-radius: 0 5px 5px 0; cursor: pointer; }
+
+/* এক্সক্লুসিভ কালেকশন (বক্স ও গ্যাপ ফিক্স) */
+.bottle-grid { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); 
+    gap: 30px; 
+    padding: 20px 10%; 
+}
+.bottle-card { 
+    background: #0a0a0a; 
+    padding: 30px; 
+    border-radius: 15px; 
+    border: 1px solid rgba(191, 149, 63, 0.4); 
+    text-align: center; 
+    transition: 0.4s;
+}
+.bottle-card:hover { border-color: #fcf6ba; transform: translateY(-10px); box-shadow: 0 10px 20px rgba(191,149,63,0.2); }
+.bottle-card img { width: 100%; height: auto; margin-bottom: 15px; }
+.bottle-card span { display: block; color: #fcf6ba; font-weight: 600; font-size: 14px; }
+
+/* Who We Work For (গোল্ডেন আইকনসহ বক্স) */
+.service-grid { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); 
+    gap: 20px; 
+    padding: 0 10%; 
+}
+.sq-box { 
+    background: #111; 
+    height: 160px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    border: 1px solid #333; 
+    border-radius: 12px; 
+    gap: 15px; 
+}
+.sq-box i { font-size: 40px; color: #bf953f; }
+.sq-box span { font-weight: 700; color: #fff; font-size: 13px; }
+
+/* কন্টাক্ট ও ফর্ম */
+.contact-container { display: flex; flex-wrap: wrap; gap: 40px; padding: 40px 10%; }
+.contact-info-card, .contact-form-card { flex: 1; min-width: 320px; background: #0a0a0a; padding: 40px; border-radius: 15px; border: 1px solid #222; }
+.main-form input, .main-form textarea { width: 100%; padding: 15px; margin-bottom: 15px; background: #000; border: 1px solid #333; color: #fff; }
+.submit-btn { width: 100%; padding: 15px; background: linear-gradient(45deg, #bf953f, #fcf6ba); border: none; font-weight: 900; cursor: pointer; }
